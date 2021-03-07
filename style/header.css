@@ -1,0 +1,38 @@
+header {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    padding: 1vh 10vh;
+    background-color: white;
+    box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 30px;
+    height: auto;
+    flex: 1;
+}
+.icons {
+    width: auto;
+    height: 20px;
+    flex: 2;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    flex: 4;
+}
+.menu {
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.menu img {
+    height: 10px;
+    padding-left: 10px;
+}
