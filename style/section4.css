@@ -1,0 +1,19 @@
+#section4{
+    background-image: url(../images/images/sky.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+#section4 h3{
+    margin: 5px 0 0 0;
+}
+.s4-gallery{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.s4-gallery img{
+    padding: 10px;
+    width: calc(100vw/3);
+}
