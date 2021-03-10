@@ -2,7 +2,8 @@
     background-image: url(../images/images/sky.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
+    background-position-y: -30px;
+    padding: 150px;
 }
 
 #section4 h3{
@@ -16,4 +17,25 @@
 .s4-gallery img{
     padding: 10px;
     width: calc(100vw/3);
+}
+.orange{
+    background-image: url(../images/images/orange_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 50px;
+}
+.orange h1{
+    color:white;
+    font-size: 2vw;
+}
+.orange button{
+    background-color: white;
+    background-image: none;
+    color: rgb(223, 90, 13);
+    width: 15vw;
+    height: 3vw;
+    font-size: 0.9vw;
 }
