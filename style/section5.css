@@ -4,7 +4,7 @@
     align-items: center;
     padding-top: 100px;
 }
-.s5 button{
+.s5 button{ 
 background-image: none;
 background-color: rgb(29, 57, 216);
 color: white;
@@ -12,7 +12,7 @@ border-color: none;
 position: absolute;
 z-index: 1;
 left: 4vw;
-top: 20vw;
+top: 22vw;
 width: 15vw;
 height: 3vw;
 font-size: 0.9vw;
@@ -27,30 +27,34 @@ font-size: 0.9vw;
     padding: 20px 3vw 0 3vw;
 }
 .s5-1 {
-    width: 40vw;
+    flex:1;
 }
 .s5-1 img{
-    width: 34vw;
+    width: 40vw;
 }
 .s5-1text{
-    padding-top: 5vw;
-    width: 34vw;
+    padding-top: 2vw;
+    width: 40vw;
 }
 .s5-1text p{
-    font-size: 0.7vw;
+    font-size: 1 vw;
 }
 .s5-1text h3{
     color: black;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 .s5-2{
+    flex:1;
+    width: 40vw;
+    margin-left: 2vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
 .s5-2 img{
-    width: 10vw;
+    width: 15vw;
+
 }
 .s5-2pic{
 padding-bottom: 2vw;
@@ -65,7 +69,7 @@ position: relative;
     position: absolute;
     z-index: 1;
     left: 1vw;
-    top: 5vw;
+    top: 8vw;
     width: 7vw;
     height: 1.5vw;
     font-size: 0.7vw;
@@ -78,8 +82,8 @@ position: relative;
 }
 .s5-2title h3{
     color: black;
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 .s5-2title p{
-    font-size: 0.7vw;
+    font-size: 1vw;
 }
