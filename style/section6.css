@@ -41,11 +41,13 @@
 }
 .s6-1{
    width: 45vw;
-   height: 45vw;
+   height: auto;
    padding-right: 3vw;
    padding-top: 5vh;
 }
-
+.s6-2{
+    width: 50vw;
+}
 .s6-2 img {
     padding: 0.7vw;
     width: 4vw;
